@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rxbro.test1.MainActivity">
+
+    <TextView
+        android:id="@+id/Nametv"
+        android:text="Name: $1%s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/Addresstv"
+        android:text="Address: $1%s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/Emailtv"
+        android:text="E-mail: $1%s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnFetch"
+        android:text="Fetch User"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/listViewBtn"
+        android:text="ListView"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/RecyclerViewBtn"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:textSize="20sp"
+        android:text="RecyclerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
